@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+<title>BLOOD Organizatuon</title>
+<style>
+   
+
+#homevideo {
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+#nav {
+  width: 90%;
+  color: black;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Neuton", serif;
+  line-height: 50px;
+}
+#nav .header-list {
+  flex: 1;
+  text-align: right;
+}
+.header-list ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 15px;
+  position: relative;
+}
+.header-list ul li a {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: "Fredoka One", cursive;
+}
+.header-list ul li::after {
+  content: "";
+  height: 2px;
+  background: #cd5c5c;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+  width: 0%;
+}
+.header-list ul li:hover::after {
+  width: 100%;
+}
+.text-box {
+  width: 80%;
+  color: black;
+  position: absolute;
+  top: 55%;
+  left: 21%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Neuton", serif;
+  line-height: 50px;
+}
+.text-box h1 {
+  font-size: 70px;
+  font-family: "Neuton", serif;
+  letter-spacing: 8px;
+}
+@media only screen and (max-width: 1000px) {
+  #homevideo {
+    height: 100%;
+    width: 100%;
+  }
+}
+.about {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 8%;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+p {
+  color: rgb(88, 87, 87);
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px;
+  line-height: 20px;
+}
+.about-col {
+  transition: transform 1s;
+  width: 25%;
+  display: inline-block;
+  box-shadow: rgba(50, 48, 48, 0.397) 0px 7px 29px 0px;
+  border-radius: 20px;
+  position: relative;
+  background: white;
+  margin: 3%;
+}
+.about-col:hover {
+  transform: scale(1.20, 1.20);
+}
+</style>
+<body> 
+  <header>
+    <video autoplay muted loop plays-inline id="homevideo">
+        <source src="https://st4.depositphotos.com/5934840/21211/v/600/depositphotos_212112478-stock-video-blood-donation-cartoon-hd-animation.mp4">
+    </video>
+    <div id="nav">
+        <div class="header-list" id="headerl">
+            <ul>
+                <li><a class="scroll" href="#about-us">About Us</a></li>
+                <li><a href="https://www.redcrossblood.org/">Donate</a></li>
+                <li><a href="https://my.blood.co.uk/Home/ContactUs" target="_blank">Contact Us</a></li>
+                <li><a href="help.html" target="_blank"></a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="text-box">
+        <h1> Start </h1>
+        <h1>Saving Lives </h1>
+        <p>Become a donor or request for blood And help save lives </p>
+    </div>
+</header>
+
+    <main>
+        <section id="about-us">
+            <div class="about">
+                <h1 class="heading">What is this all about ?</h1> <br>
+                <p class="head-des" class="text">We solve the problem of blood emergencies by connecting <span
+                        class="one-line"><br></span> blood donors directly with people in blood need. </p>
+                <div class="row">
+                    <div class="about-col">
+                        <div class="image">
+                              <video autoplay muted loop plays-inline id="homevideo">
+                                <source src="https://st3.depositphotos.com/35423868/37474/v/600/depositphotos_374745618-stock-video-black-line-iv-bag-icon.mp4">
+                            </video>
+                        </div>
+                        <h3>What we do ?</h3>
+                        <p>We connect blood donors with recipients, without any intermediary such as blood banks, for an
+                            efficient and seamless process.</p>
+                    </div>
+                    <div class="about-col">
+                        <div class="image">
+                          <video autoplay muted loop plays-inline id="homevideo">
+                            <source src="https://st3.depositphotos.com/32927174/36248/v/600/depositphotos_362486248-stock-video-black-line-heart-with-a.mp4">
+                        </video>
+                        </div>
+                        <br>
+                        <h3>Innovative</h3>
+                        <p>We are innovative approach to address global health.We provide <span>immediate
+                                access</span> to blood donors.</p>
+                    </div>
+                    <div class="about-col">
+                        <div class="image">
+                          <video autoplay muted loop plays-inline id="homevideo">
+                            <source src="https://st3.depositphotos.com/35423868/37474/v/600/depositphotos_374744732-stock-video-black-line-nurse-hat-with.mp4">
+                        </video>
+                        </div>
+                        <h3>Network</h3>
+                        <p>We are  several community organizations working together as a network that
+                            responds to emergencies in an efficient manner.</p>
+                    </div>
+                    <div class="about-col">
+                        <div class="image">
+                          <video autoplay muted loop plays-inline id="homevideo">
+                            <source src="https://st3.depositphotos.com/32927174/36248/v/600/depositphotos_362485460-stock-video-black-line-emergency-phone-call.mp4">
+                        </video>
+                            
+                        </div>
+                        <h3>Get notified</h3>
+                        <p>We Connect works with network partners to connect blood donors and recipients
+                            through an automated SMS service and a mobile app.</p>
+                    </div>
+                    <div class="about-col">
+                        <div class="image">
+                          <video autoplay muted loop plays-inline id="homevideo">
+                            <source src="https://st3.depositphotos.com/32927174/36248/v/600/depositphotos_362488170-stock-video-black-line-medical-shield-with.mp4">
+                        </video>
+                        </div>
+                        <h3>Totally Free</h3>
+                        <p>Our ultimate goal is to provide an easy -to-use, easy-to-access, fast, efficient,
+                            and reliable way to get life-saving blood, totally <span>Free of cost.</span></p>
+                    </div>
+                    <div class="about-col">
+                        <div class="image">
+                          <video autoplay muted loop plays-inline id="homevideo">
+                            <source src="https://st3.depositphotos.com/35423868/37481/v/600/depositphotos_374811648-stock-video-black-line-medicine-bottle-icon.mp4">
+                        </video>
+                        </div>
+                        <h3>Save Life</h3>
+                        <p>We are a non profit foundation and our main objective is to make sure that everything is done
+                            to protect vulnerable persons.<span>Help
+                                us by making a gift!</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
